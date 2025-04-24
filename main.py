@@ -1,9 +1,9 @@
 import streamlit as st
-from components import dashboard, student_management, teacher_management, class_schedule, notifications, database_diagnostics
+# from components import dashboard, student_management, teacher_management, class_schedule, notifications, database_diagnostics 
 from utils import initialize_session_state
 from auth import init_auth, show_login_form, logout
 from database import init_db
-
+import dashboard, student_management, teacher_management, class_schedule, notifications, database_diagnostics
 st.set_page_config(
     page_title="College Management System",
     page_icon="🎓",
