@@ -1,0 +1,44 @@
+python -m venv venv
+venv\Scripts\activate
+streamlit run main.py
+pip install streamlit
+pip install sqlalchemy plotly pandas streamlit pymysql scipy statsmodels python-dotenv
+
+
+<style>
+    /* Dark theme styles */
+    .main {
+        background-color: #0e1117;
+        color: #fafafa;
+    }
+    .stButton>button {
+        min-height: 40px;
+        width: 100%;
+        background-color: #262730;
+        color: #fafafa;
+    }
+    .css-1qg05tj {
+        background-color: #262730;
+        color: #fafafa;
+    }
+    .stTextInput>div>div>input {
+        min-height: 40px;
+    }
+    /* Better spacing for mobile */
+    @media (max-width: 640px) {
+        .main {
+            padding: 1rem 0.5rem;
+        }
+        .stRadio > label {
+            font-size: 14px;
+            padding: 0.25rem 0.5rem;
+        }
+    }
+    /* Navigation styling */
+    .nav-pills {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+        margin-bottom: 1rem;
+    }
+</style>
